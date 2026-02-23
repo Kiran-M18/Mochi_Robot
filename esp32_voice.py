@@ -7,7 +7,7 @@ import time
 
 print("Connecting to ESP32...")
 
-ESP32_PORT = "COM9"
+ESP32_PORT = "COM9" // change to your port
 BAUD = 115200
 
 try:
@@ -81,4 +81,5 @@ while True:
         print("Speech API error")
 
     except Exception as e:
+
         print("Error:", e)
