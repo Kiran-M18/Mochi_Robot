@@ -11,7 +11,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH,SCREEN_HEIGHT,&Wire,-1);
 
 #define TOUCH_PIN 2
 
-const char* GEMINI_KEY="AIzaSyB8Ku0lN8MUazGJzwYEZ40jAkZP759j2rI";
+const char* GEMINI_KEY="Your API Key";
 
 unsigned long touchStart=0;
 bool wifiConnected=false;
